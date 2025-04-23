@@ -66,9 +66,9 @@ export default function Home() {
         >
           <h5 className=" text-center pt-2">Virtual Canvas</h5>
           {canvasItems.map((item) => (
-            <div className="placing-container">
+            <div key={item.id} className="placing-container">
               <Image
-                key={item.uuid}
+                key={item.id}
                 src={item.src}
                 alt={item.name}
                 width={80}
@@ -85,7 +85,7 @@ export default function Home() {
           <ul className="list-group">
             {cart.map((item, index) => (
               <li key={item.id} className="list-group-item">
-                {item.name}
+                {item.name} 
               </li>
             ))}
           </ul>
