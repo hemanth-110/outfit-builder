@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Outfit Builder (WYSIWYG Clothing Editor)
 
-## Getting Started
+A web-based WYSIWYG clothing editor built with Next.js and Bootstrap. Users can drag and drop clothing items onto a canvas to visualize outfits and add them to a shopping cart.
 
-First, run the development server:
+## 🧩 Features
+
+- Drag-and-drop clothing items onto a virtual canvas
+- Visual assembly of layered outfits
+- Cart system to collect selected outfits
+- Responsive design (mobile/tablet/desktop)
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (v16 or later)
+- npm or yarn
+
+- npx create-next-app@latest outfil-builder
+
+- npm install bootstrap
+
+- npm install react-bootstrap bootstrap
+
+- npm install uuid
+
+### 🛠 Installation
 
 ```bash
-npm run dev
+git clone https://github.com/yourusername/outfit-builder.git
+cd outfit-builder
+npm install
 # or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+yarn install
