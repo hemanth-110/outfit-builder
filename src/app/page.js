@@ -84,7 +84,7 @@ export default function Home() {
           </Button>
           <ul className="list-group">
             {cart.map((item, index) => (
-              <li key={index} className="list-group-item">
+              <li key={item.id} className="list-group-item">
                 {item.name}
               </li>
             ))}
