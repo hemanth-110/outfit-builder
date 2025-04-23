@@ -10,8 +10,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const clothingItems = [
   { id: "shirt1", src: "/icons/blue-shirt.png", name: "Blue Shirt" },
-  { id: "shirts2", src: "public/black-shirt.png", name: "Black Shirt" },
-  { id: "pant1", src: "public/black-pant.png", name: "Black Pant" },
+  { id: "shirts2", src: "public/icons/black-shirt.png", name: "Black Shirt" },
+  { id: "pant1", src: "public/icons/black-pant.png", name: "Black Pant" },
   { id: "hat1", src: "/icons/blue-cap.png", name: "Hat 1" },
   { id: "hat2", src: "/icons/orange-cap.png", name: "Hat 2" },
 ];
