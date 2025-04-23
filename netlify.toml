@@ -1,0 +1,4 @@
+[[redirects]]
+from = "/*"
+to = "/layout.js"
+status = 200
